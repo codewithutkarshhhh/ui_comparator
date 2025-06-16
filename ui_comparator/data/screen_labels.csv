@@ -1,2 +1,0 @@
-id,text,features,label
-login_screen,Login Page,"[text_field, button]",P0
