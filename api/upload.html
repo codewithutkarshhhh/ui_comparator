@@ -1,14 +1,17 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Upload App Files</title>
+    <title>Upload APKs for Comparison</title>
 </head>
 <body>
-  <h1>Upload Two App Files for Comparison</h1>
-  <form action="/compare" method="post" enctype="multipart/form-data">
-    <input type="file" name="file1" required><br><br>
-    <input type="file" name="file2" required><br><br>
-    <button type="submit">Compare</button>
-  </form>
+    <h2>Upload Two Apps to Compare</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label>App 1:</label>
+        <input type="file" name="file1" required><br><br>
+        <label>App 2:</label>
+        <input type="file" name="file2" required><br><br>
+        <input type="submit" value="Upload and Compare">
+    </form>
 </body>
 </html>
